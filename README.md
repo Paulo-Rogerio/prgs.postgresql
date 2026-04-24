@@ -1,3 +1,3 @@
-# Ansible Collection - temp.collection
+# Ansible Collection - prgs.postgresql
 
 Documentation for the collection.
