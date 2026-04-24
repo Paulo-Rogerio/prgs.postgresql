@@ -1,0 +1,6 @@
+- name: Check PostgreSQL
+  hosts: postgres
+  gather_facts: false
+
+  roles:
+    - role: prgs.postgresql.postgresql

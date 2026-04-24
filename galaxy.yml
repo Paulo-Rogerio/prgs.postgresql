@@ -1,0 +1,21 @@
+namespace: prgs
+name: postgresql
+version: 0.0.1
+readme: README.md
+authors:
+  - Ansible PostgreSQL Prgs
+description: A collection of PostgreSQL PRGS modules for Ansible
+license_file: COPYING
+tags:
+  - database
+  - postgres
+  - postgresql
+repository: https://github.com/Paulo-Rogerio/prgs.postgresql
+documentation: https://docs.ansible.com/ansible/latest/collections/prgs/postgresql
+homepage: https://github.com/Paulo-Rogerio/prgs.postgresql
+issues: https://github.com/Paulo-Rogerio/prgs.postgresql/issues
+build_ignore:
+  - .gitignore
+  - changelogs/.plugin-cache.yaml
+  - '*.tar.gz'
+

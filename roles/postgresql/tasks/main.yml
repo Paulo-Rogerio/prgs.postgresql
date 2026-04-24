@@ -1,0 +1,12 @@
+- name: Verificar versão do PostgreSQL
+  prgs.postgresql.postgresql_check:
+    host: "{{ pg_host }}"
+    port: "{{ pg_port }}"
+    user: "{{ pg_user }}"
+    password: "{{ pg_password }}"
+    database: "{{ pg_database }}"
+  register: pg_result
+
+- name: Mostrar versão
+  debug:
+    msg: "PostgreSQL version: {{ pg_result.version }}"
