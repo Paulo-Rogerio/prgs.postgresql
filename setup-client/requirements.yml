@@ -1,0 +1,4 @@
+collections:
+- name: https://github.com/Paulo-Rogerio/prgs.postgresql
+  type: git
+  version: v0.0.1
